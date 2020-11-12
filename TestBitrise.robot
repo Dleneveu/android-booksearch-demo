@@ -9,9 +9,8 @@
 | ${ANDROID_DRIVER} | iautomator2 |
 | ${PLATFORM_NAME} | Android |
 | ${DEVICE_NAME} | Galaxy A5(2016) |
-| ${APP_PACKAGE} | com.jouve.jmcappdemonstrator |
-| ${LAUNCH_ACTIVITY} | com.jouve.jmcappdemonstrator.onboarding.splashscreen.SplashScreenActivity |
+| ${APP_PACKAGE} | com.apple.camera |
 
 | *** Test Cases *** |
 | TestBitriseRobot |
-|    | Open Application | ${APPIUM_SERVER_URL}/wd/hub | automationName=${ANDROID_DRIVER} | platformName=${PLATFORM_NAME} | deviceName=${DEVICE_NAME} | appPackage=${APP_PACKAGE} | appWaitForLaunch=true | appActivity=${LAUNCH_ACTIVITY} | appWaitActivity=${LAUNCH_ACTIVITY} | newCommandTimeout=5000 |
+|    | Open Application | ${APPIUM_SERVER_URL}/wd/hub | automationName=${ANDROID_DRIVER} | platformName=${PLATFORM_NAME} | deviceName=${DEVICE_NAME} | appPackage=${APP_PACKAGE} | appWaitForLaunch=true | newCommandTimeout=5000 |
