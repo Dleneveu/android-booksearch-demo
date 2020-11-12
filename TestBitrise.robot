@@ -9,4 +9,4 @@
 
 | *** Test Cases *** |
 | TestBitriseRobot |
-|    | Open Application | ${APPIUM_SERVER} | app=https://a4.files.diawi.com/app-file/ixyAfhVDssN5cXMaqWrs.ipa | version=12 | platform=iOS | deviceName=test | platformName=iOS | newCommandTimeout=0 | automationName=XCUITest | usePrebuiltWDA=true |
+|    | Open Application | ${APPIUM_SERVER} | app=https://a4.files.diawi.com/app-file/ixyAfhVDssN5cXMaqWrs.ipa | version=13.3 | platform=iOS | deviceName=test | platformName=iOS | newCommandTimeout=0 | automationName=XCUITest | usePrebuiltWDA=true |
