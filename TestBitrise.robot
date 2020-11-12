@@ -5,12 +5,8 @@
 | Library        | Collections |
 
 | *** Variables *** |
-| ${APPIUM_SERVER_URL} | https://DamienLJouve2222:de34c4d6-bbfe-442f-9628-259757d39b22@api.kobiton.com/wd/hub |
-| ${ANDROID_DRIVER} | iautomator2 |
-| ${PLATFORM_NAME} | Android |
-| ${DEVICE_NAME} | Galaxy A5(2016) |
-| ${APP_PACKAGE} | com.apple.camera |
+| ${APPIUM_SERVER} | https://DamienLJouve2222:de34c4d6-bbfe-442f-9628-259757d39b22@api.kobiton.com/wd/hub |
 
 | *** Test Cases *** |
 | TestBitriseRobot |
-|    | Open Application | ${APPIUM_SERVER_URL}/wd/hub | automationName=${ANDROID_DRIVER} | platformName=${PLATFORM_NAME} | deviceName=${DEVICE_NAME} | appPackage=${APP_PACKAGE} | appWaitForLaunch=true | newCommandTimeout=5000 |
+|    | Open Application | ${APPIUM_SERVER} | app=com.apple.camera | version=12 | platform=iOS | deviceName=test | platformName=iOS | newCommandTimeout=0 | automationName=XCUITest | usePrebuiltWDA=true |
