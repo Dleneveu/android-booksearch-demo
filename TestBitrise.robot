@@ -5,15 +5,13 @@
 | Library        | Collections |
 
 | *** Variables *** |
-| ${APPIUM_SERVER_URL} | http://127.0.0.1:4723 |
+| ${APPIUM_SERVER_URL} | https://DamienLJouve2222:de34c4d6-bbfe-442f-9628-259757d39b22@api.kobiton.com/wd/hub |
 | ${ANDROID_DRIVER} | iautomator2 |
 | ${PLATFORM_NAME} | Android |
-| ${DEVICE_NAME} | mobile de test |
-| ${DEVICE_ID}   | 910e89cfccac |
+| ${DEVICE_NAME} | Galaxy A5(2016) |
 | ${APP_PACKAGE} | com.jouve.jmcappdemonstrator |
-| ${RESET_OFF}   | true |
 | ${LAUNCH_ACTIVITY} | com.jouve.jmcappdemonstrator.onboarding.splashscreen.SplashScreenActivity |
 
 | *** Test Cases *** |
 | TestBitriseRobot |
-|    | Open Application | ${APPIUM_SERVER_URL}/wd/hub | automationName=${ANDROID_DRIVER} | platformName=${PLATFORM_NAME} | deviceName=${DEVICE_NAME} | udid=${DEVICE_ID} | appPackage=${APP_PACKAGE} | noReset=${RESET_OFF} | appWaitForLaunch=true | appActivity=${LAUNCH_ACTIVITY} | appWaitActivity=${LAUNCH_ACTIVITY} | newCommandTimeout=5000 |
+|    | Open Application | ${APPIUM_SERVER_URL}/wd/hub | automationName=${ANDROID_DRIVER} | platformName=${PLATFORM_NAME} | deviceName=${DEVICE_NAME} | appPackage=${APP_PACKAGE} | appWaitForLaunch=true | appActivity=${LAUNCH_ACTIVITY} | appWaitActivity=${LAUNCH_ACTIVITY} | newCommandTimeout=5000 |
