@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Users/trongbui/katalon/sources/katalon-studio-samples/ios-mobile-tests/App/Coffee Timer 2018-06-20 15-04-42/Coffee Timer-iPad Pro (9.7-inch).ipa'</initValue>
+      <name>app_path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>null</initValue>
+      <name>TEST_CASE_CONTEXT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>null</initValue>
+      <name>reportiumClient</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1.0'</initValue>
+      <name>projectVersion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Project'</initValue>
+      <name>projectName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>jobNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>jobName</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
