@@ -10,5 +10,5 @@
 
 | *** Test Cases *** |
 | TestBitriseRobot |
-|    | Open Application | ${APPIUM_SERVER} | securityToken=${Security_Token} | deviceName=00008027-001144D13C47002E | udid=00008027-001144D13C47002E | platformName=iOS | automationName=XCUITest | noReset=True | bundleId=com.apple.camera |
+|    | Open Application | ${APPIUM_SERVER} | securityToken=${Security_Token} | deviceName=00008020-000209200291002E | udid=00008020-000209200291002E | platformName=iOS | automationName=XCUITest | noReset=True | bundleId=com.apple.camera |
 |    | Log Source |
