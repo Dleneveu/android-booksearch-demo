@@ -25,17 +25,7 @@ import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 
-DesiredCapabilities capabilities = new DesiredCapabilities();
-capabilities.setCapability("platformName", "iOS");
-capabilities.setCapability("platformVersion", "14.1");
-capabilities.setCapability("location", "NA-US-BOS");
-capabilities.setCapability("resolution", "2388x1668");
-capabilities.setCapability("manufacturer", "Apple");
-capabilities.setCapability("model", "iPad Pro 11");
-capabilities.setCapability("deviceName", "00008027-001144D13C47002E");
-
-driver = new IOSDriver(new URL("https://testingcloud.perfectomobile.com/nexperience/perfectomobile/wd/hub"), capabilities);
-System.out.println("Temps: "+driver.getDeviceTime());
+System.out.println("Exec OK Depuis Katalon Runtime");
 
 
 
